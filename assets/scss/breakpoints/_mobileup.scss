@@ -113,7 +113,7 @@ MENU STYLING
   user-select: none;
   float: right;
   line-height: 2em;
-  margin-top: .5em;
+  margin-top: .9em;
   background-color: $background-color;
   border-radius: 4px;
   padding: 0 .5em;
@@ -121,6 +121,10 @@ MENU STYLING
   text-decoration: none;
   position: relative;
   right: 2rem;
+  font-family: $sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   @include transition(all 0.2s ease-in-out);
 
   &:hover {
@@ -161,6 +165,7 @@ PAGE STYLES
 ***************/
 
 .pageTitle {
+
 	margin: 2rem auto 1em;
 	text-align: center;
 }
@@ -176,7 +181,7 @@ HEADER STYLING
 
 .header {
 	background-color: $background-color;
-	background-image: url('../img/touring.jpg');
+	background-image: url('../img/header_bg_blog.jpg');
 	background-size: cover;
 	background-position: center center;
 	color: white;

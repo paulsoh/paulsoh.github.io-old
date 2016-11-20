@@ -13,13 +13,13 @@ GLOBAL STYLES
 		content: ""; 
 		display: block;
 		width: 100%;
-		height: 5em;
+		height: 10em;
 		position: absolute;
 		top: -2em;
 		left: 0;
-		-webkit-transform: skewY(-2deg);
-		-ms-transform: skewY(-2deg);
-		transform: skewY(-2deg);
+		-webkit-transform: skewY(-6deg);
+		-ms-transform: skewY(-6deg);
+		transform: skewY(-6deg);
 		-webkit-transform-origin: bottom left;
 		-ms-transform-origin: bottom left;
 		transform-origin: bottom left; 
@@ -44,6 +44,7 @@ HOMEPAGE STYLING
 	}
 
 	.pageTitle {
+    padding-top: 1em;
 		margin: 2rem auto 1em;
 	}
 }
@@ -68,10 +69,11 @@ HEADER STYLING
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 2.5em;
 		line-height: 1;
-		letter-spacing: -3px;
+		letter-spacing: 0.15em;
 		padding-left: 0;
+    padding-bottom: 1em;
 	}
 
 	nav {
@@ -90,11 +92,14 @@ HEADER STYLING
 				a {
 					color: white;
 					font-size: .9em;
+          text-transform: uppercase;
+          font-family: sans-serif;
 					text-decoration: none;
+          font-weight: 600;
 					padding: 0 .25em;
 
 					&:hover {
-						color: darken(white, 20%);
+						color: darken(white, 30%);
 					}
 				}
 
@@ -155,23 +160,6 @@ POST STYLING
 	.featuredImage {
 		position: relative;
 		margin-top: 2rem;
-
-		&:before {
-			background: white;
-			content: "";
-			display: block;
-			width: 100%;
-			height: 4em;
-			position: absolute;
-			top: -2em;
-			left: 0;
-			-webkit-transform: skewY(-2deg);
-			-ms-transform: skewY(-2deg);
-			transform: skewY(-2deg);
-			-webkit-transform-origin: bottom left;
-			-ms-transform-origin: bottom left;
-			transform-origin: bottom left;
-		}
 	}
 }
 
